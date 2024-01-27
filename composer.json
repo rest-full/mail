@@ -1,0 +1,23 @@
+{
+    "name": "rest-full/mail",
+    "description": "System for sending email through the phpmailer component.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "mit",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "José Luis",
+            "email": "simaowebsolutions@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Restfull\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.3",
+        "phpmailer/phpmailer": "v6.*"
+    }
+}
